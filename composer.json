@@ -1,0 +1,22 @@
+{
+    "name": "lbullard/olive-etl",
+    "description": "Structured ETL system for OliveWeb Framework",
+    "keywords": ["oliveweb", "etl", "module"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Bullard",
+            "email": "luke@lukebullard.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+    "extra": {
+        "installer-name": "etl"
+    }
+}
